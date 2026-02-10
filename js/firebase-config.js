@@ -1,8 +1,8 @@
 const firebaseConfig = {
     apiKey: "AIzaSyA0AGz4WGow73OvfDrYZkvGAP0P-301vCA",
-    authDomain: "cdsp-reporting-sytem.firebaseapp.com",
-    projectId: "cdsp-reporting-sytem",
-    storageBucket: "cdsp-reporting-sytem.firebasestorage.app",
+    authDomain: "cdsp-reporting-system.firebaseapp.com",
+    projectId: "cdsp-reporting-system",
+    storageBucket: "cdsp-reporting-system.appspot.com",
     messagingSenderId: "1076293744019",
     appId: "1:1076293744019:web:485559bb882e731148e466"
 };
