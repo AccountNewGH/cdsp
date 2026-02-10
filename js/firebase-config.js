@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT.firebaseapp.com",
-    projectId: "YOUR_PROJECT",
-    storageBucket: "YOUR_PROJECT.appspot.com",
-    messagingSenderId: "SENDER_ID",
-    appId: "APP_ID"
+    apiKey: "AIzaSyA0AGz4WGow73OvfDrYZkvGAP0P-301vCA",
+    authDomain: "cdsp-reporting-sytem.firebaseapp.com",
+    projectId: "cdsp-reporting-system",
+    storageBucket: "cdsp-reporting-sytem.firebasestorage.app",
+    messagingSenderId: "1076293744019",
+    appId: "1:1076293744019:web:485559bb882e731148e466"
 };
 
 firebase.initializeApp(firebaseConfig);
