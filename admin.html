@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CDSP Reporting System - Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-storage-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/admin.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CDSP Reporting System</h1>
+        <h3>Admin Dashboard</h3>
+        <h4>Overall Completion</h4>
+        <p id="overallCompletion">Completion: 0%</p>
+
+        <h4>All User Reports</h4>
+        <table border="1" id="reportsTable">
+            <tr>
+                <th>User</th>
+                <th>School</th>
+                <th>Date</th>
+                <th>Grade</th>
+                <th>Students</th>
+                <th>Female Students</th>
+                <th>Parents</th>
+                <th>Female Parents</th>
+                <th>CDSP</th>
+                <th>Attendance</th>
+                <th>Certification</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

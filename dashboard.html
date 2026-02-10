@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CDSP Reporting System - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-storage-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/form.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CDSP Reporting System</h1>
+        <h3>User Dashboard</h3>
+        <div id="targetSection">
+            <h4>Target vs Accomplishment</h4>
+            <p id="completionText">Completion: 0%</p>
+        </div>
+
+        <h4>Submit Report</h4>
+        <form id="reportForm" onsubmit="event.preventDefault(); submitReport();">
+            <input type="text" id="schoolName" placeholder="Name of School" required><br>
+            <input type="date" id="dateConducted" required><br>
+            <input type="text" id="gradeLevel" placeholder="Grade Level" required><br>
+            <input type="number" id="numStudents" placeholder="No. of Students" required><br>
+            <input type="number" id="numFemaleStudents" placeholder="No. of Female Students" required><br>
+            <input type="number" id="numParents" placeholder="No. of Parents" required><br>
+            <input type="number" id="numFemaleParents" placeholder="No. of Female Parents" required><br>
+            CDSP Report Form: <input type="file" id="cdspFile" accept=".pdf,.doc,.docx" required><br>
+            Attendance: <input type="file" id="attendanceFile" accept=".pdf,.doc,.docx" required><br>
+            Certification: <input type="file" id="certFile" accept=".pdf,.doc,.docx" required><br>
+            <button type="submit">Submit Report</button>
+        </form>
+    </div>
+</body>
+
+</html>
